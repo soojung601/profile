@@ -12,13 +12,10 @@ a {
   position: fixed;
   top: 0;
   width: 100%;
-  }
-  #nav a{
-    float: left;
-    font-size: 20px;
-    width: 33.33%;
-    text-align: center;
-  }
+  display:grid;
+grid-template-columns: 1fr 1fr 1fr;}
+#nav a {text-align:center;
+font-size:20px;}
 .active {
   color:red;
   font-weight:bold
@@ -28,10 +25,7 @@ margin-top : 80px;}
 #image i {padding-left: 30px;}
 #image {text-align:center;}
 #profile {
-  display: block;
-  text-align: center;
-  width:100%;
-  }
+  text-align:center;}
 #dog,#cook,#game,#art{text-align:center;}
 h3 {text-align:center;}
 .text {font-size: 40px;
